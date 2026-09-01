@@ -1,0 +1,1 @@
+API_RUNNING = "Tour Management System is running Successfully"

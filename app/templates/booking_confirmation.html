@@ -1,0 +1,14 @@
+<html>
+<head> <meta charset="UTF-8"> </head>
+<body style="font-family: Arial, sans-serif;">
+  <h2>Booking Confirmed!</h2>
+  <p>Hi {{ full_name }},</p>
+  <p>Your booking <strong>{{ booking_public_id }}</strong> for <strong>{{ tour_title }}</strong> is confirmed.</p>
+  <ul>
+    <li>Departure: {{ start_date }} to {{ end_date }}</li>
+    <li>Travelers: {{ total_travelers }}</li>
+    <li>Amount Paid: ₹{{ total_amount }}</li>
+  </ul>
+  <p>We look forward to having you on the trip!</p>
+</body>
+</html>
